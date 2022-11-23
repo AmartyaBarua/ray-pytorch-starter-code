@@ -71,7 +71,7 @@ def train_mnist(config):
         transforms.ToTensor(),
         transforms.Normalize((0.1307,), (0.3081,))
     ])
-    dataset_loc = '/home/amartyabarua/PycharmProjects/distributedMNIST/data'
+    dataset_loc = '/home/distributedMNIST/data'
 
     train_dataset = datasets.MNIST(dataset_loc,
                                    download=True,
